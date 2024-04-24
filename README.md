@@ -79,3 +79,9 @@ Runs the simulation.
 **args:**
 
 - `max_steps`: maximum number of steps to take before termination. If `None`, run until `self.step()` returns `False`.
+
+## simulation:
+
+We ran the simulation for `q = 0.5` and default values for `size` and `empty` for 100 equally spaced values of `p` in the range [0, 1].
+
+![Average Similarity Percentage Across Neighborhoods vs. Intolerance (p) with q = 0.5](avg_sim_plt.png)
